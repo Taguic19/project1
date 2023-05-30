@@ -1,0 +1,92 @@
+body{
+   background: #1c2b2d;
+   background-image: url(../images/bg3.webp);
+
+}
+table, td 
+{
+border: none;
+margin: 0 auto;
+text-align:center;
+border-radius: 20px;
+}
+tr
+{
+text-align: center;
+}
+
+.btn{
+width: 100px;
+height: 50px;
+}
+h2,p
+{
+margin-block-start: 2px;
+margin-block-end:2px;
+}
+.Rixson{
+height:30px;
+}   
+.Genson{
+   height:100px;
+}
+td{
+box-shadow: 0 0 20px black, 0 0 50px red;
+}
+td:hover{
+transform:scale(1.5); 
+box-shadow: 0 0 20px cyan, 0 0 50px cyan,
+0 0 100px cyan, 0 0 300px cyan, 0 0 400px cyan;
+}
+           
+small:hover{
+   color: red;
+}
+h1{
+   text-align: center;
+   color: Blue;
+}
+td{
+   border: 3px solid white;
+}
+p{
+   text-align: left;
+}
+.Q{
+   background-color: lime;
+}
+.W{
+   background-color: orange;
+}
+.E{
+   background-color: yellow;
+}
+.R{
+   background-color: skyblue;
+}
+.T{
+   background-color: pink;
+}
+.Y{
+   background-color: Silver;
+}
+.U{
+   Background-color: violet;
+}
+.I{
+   background-color: Aqua;
+}
+.O{
+   background-color: springgreen;
+}
+.B{
+   
+}
+
+.title{
+
+    color: lime;
+    font-weight: bold;
+    font-weight: 900;
+    
+}

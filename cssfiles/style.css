@@ -1,1 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    background-color: black;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* nav */
+.navbar {
+    color: blue;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.homenav {
+    border-radius: 20px;
+    color: orangered;
+}
+
+.homenav:hover {
+    transition: .2s;
+    color: lime;
+    background-color: orangered;
+    padding-left: 20px;
+    padding-right: 20px;
+    scale: 1.1;
+}
+
+.aboutnav {
+    border-radius: 20px;
+    color: orangered;
+}
+
+.aboutnav:hover {
+    transition: .2s;
+    color: lime;
+    background-color: orangered;
+    padding-left: 20px;
+    padding-right: 20px;
+    scale: 1.1;
+}
+
+.contnav {
+    border-radius: 20px;
+    color: orangered;
+}
+
+.contnav:hover {
+    border-radius: 20px;
+    transition: .2s;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    scale: 1.1;
+    color: lime;
+    background-color: orangered;
+}
+
+.gallnav {
+    color: orangered;
+    border-radius: 20px;
+}
+
+.gallnav:hover {
+    scale: 1.1;
+    transition: .2s;
+    color: lime;
+    background-color: orangered;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.actnav {
+    border-radius: 20px;
+    color: orangered;
+}
+
+.actnav:hover {
+    scale: 1.1;
+    border-radius: 20px;
+    transition: .2s;
+    color: lime;
+    background-color: orangered;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* END NAV */
+.homebg {
+    background-image: url(../images/bghomep.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo {
+    width: 20%;
+    height: auto;
+}
+
+
+
+h1 {
+    font-family: 'Anton', sans-serif;
+}
+
+/* home */
+.col-6 h3 {
+    font-size: 3em;
+}
+
+.col-6 h6 {
+    font-size: 1.5em;
+}
+
+.col-6 {
+    margin-top: 1 00px;
+}
+
+.main .container h3 {
+    font-size: 5vw;
+}
+
+.ERN {
+    font-size: 3vw;
+}
+.bgh
+{
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+/* about US */
+.abttxt {
+    font-size: 3.5 rem;
+}
+
+.About_us img {
+    max-width: 100%;
+    height: 50vh;
+}
+
+.About_us .rounded-circle {
+    border: 3px solid black;
+}
+
+section h1 {
+    font-size: 6rem;
+}
+
+.About_us .col-lg-4 {
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+/* contact us */
+.cont {
+    background-image: url(../images/contbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gpic{
+    width: 100%;
+    height: 70vh;
+}
+
+/* act */
+.actbutton {
+    font-weight: bolder;
+    font-style: none;
+    text-decoration-line: none;
+    color: white;
+
+}
+
+.buttonhover:hover {
+    background-color: black;
+    color: rgb(116, 5, 5);
+    transition: all 0.5s;
+    border-radius: 200px;
+    scale: 1.2;
+    cursor: auto;
+}
+
+.button2 {
+    border-radius: 200px;
+}
+
+.button2:hover {
+    border-radius: 200px;
+    transition: all 1s;
+}
+
+.actbg {
+    background-image: url(../images/actbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.periodic {
+    height: 250px;
+    border-radius: 20px;
+}
+
+.survey {
+    height: 250px;
+    border-radius: 20px;
+}
+
+.responsive {
+    height: 250px;
+    border-radius: 20px;
+}

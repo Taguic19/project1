@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.tourist-spots img {
+    height: 400px;
+}
+.text1{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tourist-spots2 img {
+    height: 400px;
+}
+
+.team7 img {
+    height: 250px;
+}
+
+.WC {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
